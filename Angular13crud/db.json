@@ -1,0 +1,32 @@
+{
+  "productList": [
+    {
+      "productName": "Orange",
+      "category": "Fruits",
+      "freshness": "Brand New",
+      "price": 100,
+      "Comment": "free",
+      "date": "2022-12-26T18:30:00.000Z",
+      "id": 1
+    },
+    {
+      "productName": "Ram",
+      "category": "Electronics",
+      "freshness": "Brand New",
+      "price": 4000,
+      "Comment": "Good Condition",
+      "date": "2022-12-26T18:30:00.000Z",
+      "id": 2
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

@@ -1,0 +1,27 @@
+<p>addcustomer works!</p>
+<form>
+    <input type="text" [(ngModel)]="firstname" name="firstname">
+</form>
+<div>{{firstname}}</div>
+<div *ngFor="let i of u">
+    <p>userID:{{i.userID}},name:{{i.name}}</p>
+</div>
+<ul *ngFor="let user of u">
+    <li>{{user.name}}</li>
+</ul>
+<h2>HTML Table</h2>
+
+<table>
+    <tr>
+        <th>Id</th>
+        <th>name</th>
+        <th>Username</th>
+        <th>Email</th>
+    </tr>
+    <tr *ngFor="let user of u">
+        <td>{{user.id}}</td>
+        <td>{{user.name}}</td>
+        <td>{{user.username}}</td>
+        <td>{{user.email}}</td>
+    </tr>
+    <button (click)="postfn()">Click</button>
